@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js03_soma.htm</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+</head>
+<body>
+	<h3>Somatória de dois números inteiros</h3>
+
+<script language="javascript"
+ 
+<!-- Objetivo : capturar o nome do usuário e apresentar uma saudação personalizada 
+Definir as variáveis com o prefixo js_
+Para os elementos de entrada: método prompt do objeto window
+Para os elementos de saída: método write do objeto document -->
+
+ // */ Definição de variáveis */ 
+var js_primeiroNumero;
+var js_segundoNumero;
+var js_soma;
+
+// */ Entrada de dados */
+js_primeiroNumero = window.prompt('Entre com o primeiro número: ' , 'Digite  o primeiro número nesta caixa');
+
+js_segundoNumero = window.prompt('Entre com o segundo número: ' , 'Digite  o segundo número nesta caixa');
+
+// */ Saída de dados*/
+
+js_soma = parseInt(js_primeiroNumero) + parseInt(js_segundoNumero);
+
+document.write(js_soma + 'Soma!'); //Memsagem de saudação personalizada
+// -->
+ 
+</script>
+
+</body>
+</html>
+
+                                                    
