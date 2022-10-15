@@ -1,3 +1,4 @@
+--Desafio do Curso realizado na 4linux  https://4linux.com.br/ :)
 function criaMoeda(nome, sigla, valor) {
 return {nome: nome, sigla: sigla, valor: valor};
 }
